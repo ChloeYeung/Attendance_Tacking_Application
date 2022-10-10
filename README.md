@@ -1,9 +1,9 @@
 # :clock9: OkiPunch
 - Functionalities: 
-- 
+
 :cloud: Employee side: show employee salary summary, punch out, show employee attendance on calendar, edit employee infomation
 
-***some of the examples***
+***some employee the examples***
 
 <img width="312" alt="emSummary" src="https://user-images.githubusercontent.com/106992258/194916597-226b0aa7-2e75-43b1-ad11-3ee60162c113.png">
 
@@ -12,7 +12,7 @@
 
 :cloud: Company side: show all employee, punch in with redis, show employee calendar record, edit employee attendance, edit employee infomation, create new employee account
 
-***some of the examples***
+***some company the examples***
 
 <img width="348" alt="showWorker" src="https://user-images.githubusercontent.com/106992258/194916632-9be6e577-b195-42b6-a81d-1bdd98e56c75.png">
 
@@ -45,9 +45,9 @@
 
 ### Use two browser for company admin side and employee admin side separately
 
-** note **
-** using incognito open company side (http://localhost:8000/company_login) **
-** using normal bowser open employee side (http://localhost:8000/employee_login) **
+note :
+- using incognito open company side (http://localhost:8000/company_login)
+- using normal bowser open employee side (http://localhost:8000/employee_login)
 
 ### Start the App:
 
@@ -57,4 +57,4 @@
 ### Account:
 - :office: Company:  :bust_in_silhouette: ac: com@com  :key: pw: com
 - :construction_worker: Employee: :bust_in_silhouette: ac: em@em   :key: pw: em
-- *** more accounts find on /seeds ***
+(more accounts find on /seeds)
