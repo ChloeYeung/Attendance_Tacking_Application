@@ -57,4 +57,4 @@ note :
 ### Account:
 - :office: Company:  :bust_in_silhouette: ac: com@com  :key: pw: com
 - :construction_worker: Employee: :bust_in_silhouette: ac: em@em   :key: pw: em
-(more accounts find on /seeds)
+- (more accounts find on /seeds)
