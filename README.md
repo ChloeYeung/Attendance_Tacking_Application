@@ -71,7 +71,8 @@
 
 ### Application detail
 
-- Punch in Process:
+- :construction_worker: + :office: Punch in Process:
+
 :one: Using incognito open company side (http://localhost:8000/company_login) and login
 
 :two: Using normal bowser open employee side (http://localhost:8000/employee_login) and login
@@ -85,7 +86,7 @@
 :six: Check company :radio_button: Show all Workers :radio_button: (http://localhost:8000/biz/showworkers) and select the punched in employee's calendar icon e.g.(http://localhost:8000/biz/worker/3/calendar)
 
 
-- Punch out:
+- :construction_worker: Punch out:
  
 :one: go to :radio_button: Punch :radio_button: (http://localhost:8000/employee/punch) and click :radio_button: Punch out :radio_button:
 
@@ -110,6 +111,7 @@
 :two: Click the edit button icon and it will redener the edit form
 
 :three: Click submit when finish edited (need to refresh)
+
 
 - :office: Add new worker
 
