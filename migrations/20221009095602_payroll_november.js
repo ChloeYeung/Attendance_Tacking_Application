@@ -2,8 +2,14 @@
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
-exports.up = function(knex) {
-  
+ exports.up = function(knex) {
+    return knex.schema.createTable('payroll_novemver', (table) => {
+        table.increments();
+        table.integer("employee_id").unsigned();
+        table.integer("attendance_id");
+        table.integer("salary_id");
+        table.decimal("daily_salary");
+    })
 };
 
 /**
@@ -11,5 +17,5 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-  
+    return knex.schema.dropTable('payroll_novemver');
 };
