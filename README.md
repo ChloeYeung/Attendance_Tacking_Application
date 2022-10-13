@@ -86,12 +86,14 @@
 
 
 - Punch out:
+ 
 :one: go to :radio_button: Punch :radio_button: (http://localhost:8000/employee/punch) and click :radio_button: Punch out :radio_button:
 
 :two: Check employee :radio_button: Calendar :radio_button: (http://localhost:8000/employee/calendar)
 
 
 - :office: Edit Employee info
+
 :one: Go to :radio_button: Show All Worker :radio_button: (http://localhost:8000/biz/showworkers)
 
 :two: Click the correspond edit button icon (http://localhost:8000/biz/worker/3/info)
@@ -100,7 +102,9 @@
 
 :four: Click submit when finish edited (need to refresh)
 
+
 - :construction_worker: Edit Employee info
+
 :one: Go to :radio_button: Personal Information :radio_button: (http://localhost:8000/employee/info)
 
 :two: Click the edit button icon and it will redener the edit form
@@ -108,6 +112,7 @@
 :three: Click submit when finish edited (need to refresh)
 
 - :office: Add new worker
+
 :one: Go to :radio_button: Add New Worker :radio_button: (http://localhost:8000/biz/worker/addnew)
 
 :two: Input the data and submit it
