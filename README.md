@@ -44,7 +44,7 @@
 
 `npm install express-flash express passport bcrypt express-session express-handlebars knex dotenv express-session passport-local path pg redis`
 
-### setup for DB connect
+### Setup for DB connect
 
 - 3 variables in .env
   `DB_NAME, DB_USERNAME, DB_PASSWORD`
@@ -53,7 +53,7 @@
   `knex migrate:latest`
   `knex seed:run`
 
-### setup for Redis connect
+### Setup for Redis connect
 
 - change direction to your current redis version
   `cd redis-7.0.4`
@@ -61,17 +61,43 @@
   `redis-server --daemonize yes`
 - open the cli to interact with the server
   `redis-cli`
-
-### Use two browser for company admin side and employee admin side separately
-
-note :
-- using incognito open company side (http://localhost:8000/company_login)
-- using normal bowser open employee side (http://localhost:8000/employee_login)
-
+  
+  
 ### Start the App:
 
 `logo site: http://localhost:8000/logo`
 `root site: http://localhost:8000 `
+
+
+### Application detail
+
+- Punch in Process:
+:one: Using incognito open company side (http://localhost:8000/company_login) and login
+:two: Using normal bowser open employee side (http://localhost:8000/employee_login) and login
+:three: Go to employee  :radio_button: Punch :radio_button: (http://localhost:8000/employee/punch) and click :radio_button: "punch in" :radio_button:
+:four: Go to company :radio_button: Punch In OTP :radio_button: (http://localhost:8000/biz/worker/otp) and enter the correspond employee id & 4 digit password , then submit it
+:five: Check employee :radio_button: Calendar :radio_button: (http://localhost:8000/employee/calendar)
+:six: Check company :radio_button: Show all Workers :radio_button: (http://localhost:8000/biz/showworkers) and select the punched in employee's calendar icon e.g.(http://localhost:8000/biz/worker/3/calendar)
+
+- Punch out:
+:one: go to :radio_button: Punch :radio_button: (http://localhost:8000/employee/punch) and click :radio_button: Punch out :radio_button:
+:two: Check employee :radio_button: Calendar :radio_button: (http://localhost:8000/employee/calendar)
+
+- :office: Edit Employee info
+:one: Go to :radio_button: Show All Worker :radio_button: (http://localhost:8000/biz/showworkers)
+:two: Click the correspond edit button icon (http://localhost:8000/biz/worker/3/info)
+:three: Click the edit button icon and it will redener the edit form
+:four: Click submit when finish edited (need to refresh)
+
+- :construction_worker: Edit Employee info
+:one: Go to :radio_button: Personal Information :radio_button: (http://localhost:8000/employee/info)
+:two: Click the edit button icon and it will redener the edit form
+:three: Click submit when finish edited (need to refresh)
+
+- :office: Add new worker
+:one: Go to :radio_button: Add New Worker :radio_button: (http://localhost:8000/biz/worker/addnew)
+:two: Input the data and submit it
+ 
 
 ### Account:
 - :office: Company:  :bust_in_silhouette: ac: com@com  :key: pw: com
