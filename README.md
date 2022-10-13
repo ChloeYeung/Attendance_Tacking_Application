@@ -63,13 +63,13 @@
   `redis-cli`
   
   
-### Start the App:
+### Start the App
 
 `logo site: http://localhost:8000/logo`
 `root site: http://localhost:8000 `
 
 
-### Application detail
+### Application Detail
 
 - :construction_worker: + :office: Punch in Process:
 
@@ -124,7 +124,7 @@
 :two: Input the data and submit it
  
 
-### Account:
+### Account
 - :office: Company:  :bust_in_silhouette: ac: com@com  :key: pw: com
 - :construction_worker: Employee: :bust_in_silhouette: ac: em@em   :key: pw: em
 - (more accounts find on /seeds)
