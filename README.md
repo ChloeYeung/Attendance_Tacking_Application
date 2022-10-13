@@ -87,7 +87,7 @@
 
 
 
-- :construction_worker: Punch out:
+- :construction_worker: ## Punch out:
  
 :one: go to :radio_button: Punch :radio_button: (http://localhost:8000/employee/punch) and click :radio_button: Punch out :radio_button:
 
@@ -95,7 +95,7 @@
 
 
 
-- :office: Edit Employee info
+- :office: ## Edit Employee info
 
 :one: Go to :radio_button: Show All Worker :radio_button: (http://localhost:8000/biz/showworkers)
 
@@ -107,7 +107,7 @@
 
 
 
-- :construction_worker: Edit Employee info
+- :construction_worker: ## Edit Employee info
 
 :one: Go to :radio_button: Personal Information :radio_button: (http://localhost:8000/employee/info)
 
@@ -117,7 +117,7 @@
 
 
 
-- :office: Add new worker
+- :office: ## Add new worker
 
 :one: Go to :radio_button: Add New Worker :radio_button: (http://localhost:8000/biz/worker/addnew)
 
